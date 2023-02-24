@@ -1,8 +1,9 @@
 const express = require('express');
+const app = express();
 const path = require("path");
 const hbs = require('hbs')
 const fs  = require('fs')
-const app = express();
+
 
 console.log(path.join(__dirname,'/partials'));
 
